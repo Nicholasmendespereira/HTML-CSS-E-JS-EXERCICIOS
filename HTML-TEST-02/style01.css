@@ -1,0 +1,8 @@
+section {
+    background-color: lightslategray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 15px;
+    
+}
