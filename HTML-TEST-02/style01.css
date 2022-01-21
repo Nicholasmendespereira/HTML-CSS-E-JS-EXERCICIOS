@@ -1,6 +1,46 @@
-
+*{
+margin: 0px;
+}
+header {
+    padding: 15px;
+    background-color: #FC970F;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+header h2 {
+    background-image:linear-gradient(to right,#F45A1B , #cf6a422f) ;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+header li {
+    display: inline-block;
+    padding: 8px;
+    padding-left:25px ;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+#home {
+    background-color: #F45A1B;
+}
+#servicos {
+    background-color:#0090D0 ;
+}
+#portifolio {
+    background-color:#23627e ;
+}
+#blog {
+    background-color: #744A31;
+}
+body {
+    background-color: #00ADF7;
+}
 section {
-    background-color: lightslategray;
+    background-color: #0089C4;
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -10,17 +50,35 @@ section {
     margin: auto;
 }
 .parte {
-    border: solid 1px #fafafa44;
+    background-color: #0090D0;
+    border: solid 2px #F45A1B;
     box-shadow: 2px 2px 10px black;
     width: 250px;
-    padding: 8px;
+    padding: 10px;
     margin: 20px;
     margin-top:25px ;
+    height: 390px;
     
 }
 .parte a:hover {
-    background-color: ;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.329);
 }
 .parte img {
     width: 100%;
 }
+.precoantigo {
+    text-decoration: line-through;
+    color: firebrick;
+}
+.precoatual {
+    font-size: 1.4em;
+    color: green;
+    font-weight: bold;
+}
+.info a {
+    text-decoration: none;
+}
+.info a:hover {
+    color:rgb(54, 231, 54);
+}
+
