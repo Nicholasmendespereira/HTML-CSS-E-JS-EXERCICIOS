@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Pacifico&display=swap');
+body {
+    background-color:#23DB99;
+}
+header {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: #FF6542;
+}
+nav {
+    background-color: #DB4523;
+    width: 100%;
+    padding:0.5%;
+   
+}
+nav a {
+    
+    padding:4%;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+    
+}   
+div {
+    
+    display:flex;
+    padding: 10px;
+    
+
+}
+#div01 {
+    margin: auto;
+}
+#vejahoras {
+    padding: 10px
+}
+#button {
+    border-radius: 8px;
+    display: block;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+#horas {
+    font-size: 25px;
+    padding: 10px;
+}
+section {
+    background-color: #008F5B;
+    width: 800px;
+    margin: auto;
+    
+    border-radius: 0px 0px 15px 15px ;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+}   
+footer {
+    background-color: blanchedalmond;
+}

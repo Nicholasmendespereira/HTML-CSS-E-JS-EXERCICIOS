@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body {
+    color:rgb(243, 175, 3); /* Esta tecla serve para mudar a cor das letras */
+    background-color: deepskyblue; /* Esta aqui muda a cor do fundo */
+    font-size: 18pt; /* Esta muda o tamanho da Fonte */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Esta muda a fonte */
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: #3e81d5;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 13px;
+    box-shadow: 2px 2px 10px black;
+}   
+div {
+
+}
+#button {
+    box-shadow: 1px 1px 6px black;
+}
+footer {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+    width: 150px;
+    background-color: rgba(255, 0, 0, 0.603);
+    margin: auto;
+    border-radius: 10px;
+    
+}

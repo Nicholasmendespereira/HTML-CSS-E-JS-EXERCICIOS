@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de cadastramento Clientes</h1>
+    </header>
+    <section>
+        <div>
+            <p id="formulario">
+                    <img src="imagens/clientes/cliente001.png" alt="Cliente 001">
+                    Nome: <input type="text" name="nome" id="nome" class="input"> <br>
+                    Contato: <input type="number" name="contato" id="contato" class="input"><br>
+                    Endereço: <input type="text" name="endrç" id="endrç" class="input"><br>
+                   
+                    
+                <br>
+                <input type="button" value="Cadastrar" onclick="cadastrar()">
+            </p>
+            
+            <p id="data" class="diahora">
+                Data: * COLOCAR DATA ATUAL DO SISTEMA *
+                <p id="atualhora" class="diahora"></p>
+
+                <input type="radio" name="sex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sex" id="femi">
+                <label for="femi">Feminino</label>
+            </p>  
+            </div>
+        <div>
+
+        </div>
+    </section>
+    <footer>
+        <h2> &copy; Developer</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

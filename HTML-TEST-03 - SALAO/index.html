@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão Stylo Feminino</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Licorice&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Libre+Baskerville&family=Licorice&display=swap');
+
+        :root {
+            
+            --color1:#FFD4E5;
+            --color2:#EDADC7;
+            --color3:#A1657D;
+            --color4:#55A159;
+            --color5:#ADEDB1;
+           /*Cores alternativas*/
+           --color6:#493657;
+           --color7:#91C4F2;
+           --color8:#FF7733;
+           --color9:#E15634;       
+        }
+
+
+        *{
+            margin: 0px;
+        }
+        header{
+            background-color: var(--color1);
+            padding: 25px;
+            min-height: 150px;
+            text-align: center;
+        }
+        header > h1 {
+            background-image: linear-gradient(to right,#A1657D , #a1657d0c);
+            width: 400px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 8px;
+            border-radius: 10px;
+        }
+        header > div {
+        color:black;
+            font-size: 20px;    
+            font-family: 'Licorice', cursive;
+            
+        }
+        nav {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            margin:auto;
+            box-sizing: border-box;
+            height: 50px;
+            
+            
+        }
+        nav  a {
+            text-decoration: none;
+            color:var(--color3) ;
+            padding: 10px;
+            margin-left: 15%;
+            margin-top:10px;
+            height:30px
+        }
+       
+            nav  a:hover {
+            text-align: center;
+            color: white;
+            background-color:#E15634;
+           
+        }
+        main {
+            padding-top: 5px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            background-color: var(--color5);
+        }
+        article {
+            padding: 8px;
+            background-color: white;
+            max-width: 800px;
+            
+            margin: auto;
+        }
+        
+        article > h2 {
+            font-family: 'Cinzel', serif;
+
+        }
+        article > p {
+            text-align: justify;
+        }
+        #coloracao {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+        }
+        .container > img {
+            max-width: 600px;
+            min-width: 300px;
+            max-height: 450px;
+        }
+        .container > p {
+            padding: 10px;
+            text-align: left;
+        }
+        #burguer {
+            float: right;
+            padding: 0px 5px ;
+            
+            
+        }
+       
+        
+        @media (min-width:940px) {
+            #burguer {display:none;}
+        }
+        @media (max-width:950px) {
+            #promo {display:none;}
+        }
+        @media (max-width:950px) {
+            #burguer {display:inline-block;}
+        }
+        @media (max-width:600px) {
+            .menu {display: none;}
+        }
+        @media (max-width:680px) {
+            .container {display:inline-block}
+        }
+        @media (max-width:680px) and (min-width:530px) {
+            #imagemcolor {margin-left: 20%;}
+        }
+        @media (max-width:680px) {
+            #imagemcolor {margin-left: 15%;}
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salão Stylo Feminino</h1>
+        <div>Sua satisfação ou o dinheiro de volta!</div>
+        <span></span>
+    </header>
+    <nav>
+        <span ><a href="#">Página inicial</a></span>
+        <span ><a href="#">Agendar</a></span>
+        <span class="menu"><a href="#">Empresa</a></span> <!--Mostrar a Equipe-->
+        <span id="promo"><a href="#">Promoções</a></span>
+        <span ><img  id="burguer" src="interação/menuhamberguer.png" alt="menu"></span>
+    </nav>
+    <main>
+        <article>
+            <h2>PENTEADOS</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nemo deleniti possimus voluptates natus voluptas, doloribus quis harum ad inventore hic ea, ipsa provident quam rem aperiam accusantium sunt eos?loem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae aliquam veniam eaque culpa molestiae sequi non reiciendis, perferendis odio, fugiat molestias, ratione exercitationem deleniti sint. Ipsum harum sed assumenda?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur harum animi error eos amet ducimus omnis eaque ex doloribus minima, provident, dolorum consequuntur corporis dolor enim explicabo suscipit ipsam! Consectetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ab reprehenderit alias cumque accusantium commodi voluptatibus. Ex neque labore, enim rem sint est vitae autem maxime illo natus deleniti inventore?
+            </p>
+            <br>
+            <h2 id="coloracao">COLORAÇÃO</h2>
+            
+            <div class="container">
+                <img  id="imagemcolor"  src="imagens/imagem-coloracao-pq.jpg.jpg" alt="imagen coloração">
+                
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis vel reiciendis harum alias molestiae quasi a rerum quia. Culpa, ipsum totam. Iusto assumenda amet dignissimos voluptatibus inventore reiciendis deserunt?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem adipisci enim ab reprehenderit unde sapiente consequatur pariatur beatae aspernatur, hic doloribus assumenda voluptatibus repudiandae minus iste quae nobis aliquam itaque?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, laudantium veritatis? Recusandae praesentium sunt hic maxime cum dolor, sint officiis sed. Dolore veritatis pariatur amet molestias tenetur! Eos, sunt aliquid?</p>
+                
+            </div>
+        </article>
+        
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

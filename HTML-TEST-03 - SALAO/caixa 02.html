@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounping tags semanticas</title>
+    <style>
+        body {
+            background-color: #EDADC7;
+            margin: 0px
+        }
+        header{
+            font-size: 16px;
+            background-color:rgb(150, 209, 150) ;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        h1 > a{
+
+            color: black;
+            text-decoration: underline;
+
+        }
+        h1 > a:hover {
+            color:#cc2266 ;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        nav {
+            background-color: rgb(166, 245, 166);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 8px;
+        } 
+        nav > a:hover {
+            text-decoration:underline;
+        }
+        
+        article {
+            font-size: 16px;
+            background-color:rgb(150, 209, 150) ;
+            padding: 10px;
+            margin: 10px;
+        }
+        article > aside {
+            background-color: rgb(65, 119, 65);
+           
+        }
+        footer {
+            background-color: lime;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!----Cabeçalho-->
+    <header>
+        <h1><a href="#">Meu site</a></h1>
+        <!--Menu-->
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <!---Conteudo prncipal-->
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article> <!---artigo-->
+                <h2>Noticia sobre o instituto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sint veritatis odio dolores laborum voluptatem fugit, rerum rem id a repellat ex exercitationem voluptatibus dicta molestiae et quisquam possimus reprehenderit!</p>
+                <!---contudo periferico ao artigo-->
+                <aside>
+                    <p>Artigo feito pelo instituto lorem</p>
+
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <!---Rodapé-->
+    <footer>
+        <!---paragrafo para o rodapé-->
+         <p>Desenvolvido  por :   <strong>Devenloper S/A</strong></p>
+    </footer>
+</body>
+</html>

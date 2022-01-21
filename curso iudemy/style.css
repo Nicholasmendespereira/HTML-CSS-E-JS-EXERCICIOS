@@ -1,0 +1,41 @@
+        /*parte de responsividade*/
+
+@media (max-width:550px) {
+    .menu {display:none;}
+}
+@media (min-width:550px) {
+    .burguer {display: none;}
+}
+@media (max-width:550px) {
+    .burguer {display: inline-block;}
+}
+    /* corpo do menu*/
+header {
+    background-color: #2D2D2F;
+    padding: 20px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+header a:hover {
+    background-color: #5A91BA;
+    color: black;
+}
+span.burguer {
+    margin-left: 115px;
+}
+span#registrar {
+    background:red;
+    border-radius:15px ;
+    margin-left: 300px;
+    display: inline-block;
+}
+span#registrar :hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+span#login {
+    margin-left: 100px;
+    display: inline-block;
+}
