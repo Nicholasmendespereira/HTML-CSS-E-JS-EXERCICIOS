@@ -11,46 +11,6 @@ marrom : #744A31;
 marro claro:#B3714B
 
 */
-* {
-    margin: 0px;
-
-}
-body {
-    background-image:linear-gradient(to right,#79c0e7ce, #32a8e7) ;
-}
-header {
-    background-color: rgb(35, 189, 68);
-}
-section {
-    background-color: rgb(141, 28, 28);
-}
-div {
-
-}
-footer {
-    background-color: #B3714B;
-    color: #2f1e14;
-}
-
-
-
-                             /*PROPRIEDADES FLEX*/
-
-div.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: center;
+div.dogs {
     
-}
-div.container01 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: baseline;
-    align-content: center;
-}
-div.flex-item {
-    flex-grow: 1;
 }
