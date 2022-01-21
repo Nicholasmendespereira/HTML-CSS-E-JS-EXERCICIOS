@@ -1,13 +1,14 @@
-@charset "UTF-8";
+/* Cores para usar no projeto 
 
-body {
-    background-image: linear-gradient(to left, #A307A1, #0AF0CF)
-}
 
-h1#titulo {
-    background-color:#F022EC;
-}
+azul grecia : #017EC0;
+azul claro: #48B1EA
 
-h2#subtitulo {
-    background-color: #F0C93A;
-}
+laranja : #F45A1B;
+laranja claro: #EA8760
+
+marrom : #744A31;
+marro claro:#B3714B
+
+*/
+
