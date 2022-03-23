@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contato h2 {
+    color: white;
+    font-size: 55px;
+}
+.contato {
+    text-align: center;
+    background-color: black;
+    height: 300px;
+}
+.contato *{
+    position: relative;
+    top: 50px;
+}
+
+.entre-em-contato {
+    padding: 20px;
+    font-size: 50px;
+    position: relative;
+    left: 50px;
+    
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50vh;
+}
+section {
+    width: 50%;
+}
+select {
+    cursor: pointer;
+    font-family: serif;
+    font-size: 23px;
+    border: 2px solid rgba(102, 102, 102, 0.657);
+    height: 50px;
+    width: 700px;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+}
+.format {
+    
+}
+select option {
+
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* aqui acaba o select */
+.nome-email {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.telefone-assunto {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.mensagem-button {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+ section input {
+    margin: 0px 10px 0px 10px;
+    font-family: serif;
+    font-size: 23px;
+    border: 2px solid rgba(102, 102, 102, 0.657);
+    height: 50px;
+    width: 350px;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+ }
+ section h3 {
+    color:rgba(102, 102, 102, 0.657);;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    left: 50px;
+ }
+ section button {
+     background-color: black;
+     color:white;
+     height: 60px;
+     width: 200px;
+     border-radius: 20px;
+     position: relative;
+     top: 45px;
+     left: 100px;
+     cursor: pointer;
+ }
+
+ /* segundo lado - inicio */
+ aside {
+     width: 50%;
+ }
+ aside h2 {
+    font-size: 45px;
+    margin: 0px 0px 40px 0px ;
+ }
+ aside h5 {
+    font-size: 25px;
+    color: gray;
+    font-weight: lighter;
+    margin: 20px 0px 20px 0px ;
+ }
+ .conceito *{
+    
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgba(29, 28, 28, 0.883);
+ }
+ .conceito strong {
+     font-weight: bold;
+     color: black;
+ }
+
+ .nossos-telefones {
+     padding: 40px 0px 0px 0px
+ }
+ .nossos-telefones *{
+    
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgba(29, 28, 28, 0.883);
+ }
+ .nossos-telefones strong {
+     font-weight: bold;
+     color: black;
+ }

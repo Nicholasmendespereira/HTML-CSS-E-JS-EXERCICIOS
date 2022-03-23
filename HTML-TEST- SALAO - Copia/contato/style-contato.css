@@ -1,0 +1,172 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Licorice&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Libre+Baskerville&family=Licorice&display=swap');
+
+        :root {
+            
+            --color1:#FFD4E5;
+            --color2:#EDADC7;
+            --color3:#A1657D;
+            --color4:#55A159;
+            --color5:#ADEDB1;
+           /*Cores alternativas*/
+           --color6:#493657;
+           --color7:#91C4F2;
+           --color8:#FF7733;
+           --color9:#E15634;       
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        header {
+            height: 250px;
+            box-shadow: 2px 2px 10px rgba(180, 173, 173, 0.603);
+        }
+        .container-header{
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+        nav {
+            height: 100%;
+           
+        }
+        nav ul {
+            height: 100%;
+        }
+        nav li {
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+            top: 50px;
+            
+            
+        }
+            
+        nav a {
+            text-decoration: none;
+            color: black;
+            padding: 65px 10px 40px px;
+            font-weight: bold;
+            font-size: 20px;          
+        }
+        /* nav a:hover {
+            background-color: black;
+            color: white;
+        } */
+        .links a:hover {
+            background-color: black;
+            color: white;
+        }
+        .facebook a {
+            position:relative;
+            top:30px;
+        }
+        .instragam a {
+            position:relative;
+            top:15px;
+        }
+        .whatsapp a {
+            position:relative;
+            top:20px;
+        }
+/* main */
+        main {
+
+        }
+        .contato {
+            text-align: center;
+            background-color: black;
+        }
+        .contato h2 {
+            font-size: 50px;
+            color: white;
+            
+        }
+        .contato h4 {
+            font-size: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: lighter;
+
+        }
+/* footer         */
+        footer {
+            
+            padding: 45px;
+            height: 450px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: rgb(15, 15, 15);
+            color: white;
+            
+        }
+        .instagram-cabeleleiros {
+            font-size: 50px;
+        }
+        .barrinha-vertical {
+            margin: 5px;
+            height: 350px;
+            width: 5px;
+            background-color: white;
+        }
+        .localizações {
+            display: flex;
+            flex-direction: column;
+        }
+        .localizações h2 {
+            font-size: 30px;
+            padding-bottom:40px ;
+        }
+        .localizações strong {
+            font-size: 40px;
+            font-weight: 900;
+        }
+        .localizações p {
+            padding: 0px 10px;
+            font-size: 20px;
+        }
+        .localizações img {
+            position: relative;
+            bottom: 20px;
+            padding: 8px 0px 0px 0px;
+        }
+        .icone-local {
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .outro-footer {
+            height: 100px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;            
+        }
+        .outro-footer  p {
+           color: rgba(255, 255, 255, 0.534);  
+           font-size: 22px; 
+           position: relative;
+           left: 750px; 
+           top: 30px;       
+        }
+        #marca-darc img {
+            padding: 10px;
+            width: 150px;
+            position: relative;
+            left: 60px;
+        }
+        #face {
+            position: relative;
+            left: 80px;
+        }
+        #insta {
+            position: relative;
+            left: 80px;
+        }
+        
+        

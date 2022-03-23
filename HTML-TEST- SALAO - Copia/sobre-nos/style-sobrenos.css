@@ -1,0 +1,263 @@
+
+
+
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    height: 250px;
+    box-shadow: 2px 2px 10px rgba(180, 173, 173, 0.603);
+}
+.container-header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+nav {
+    height: 100%;
+   
+}
+nav ul {
+    height: 100%;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    
+    
+}
+    
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 65px 10px 40px px;
+    font-weight: bold;
+    font-size: 20px;          
+}
+/* nav a:hover {
+    background-color: black;
+    color: white;
+} */
+.links a:hover {
+    background-color: black;
+    color: white;
+}
+.facebook a {
+    position:relative;
+    top:30px;
+}
+.instragam a {
+    position:relative;
+    top:15px;
+}
+.whatsapp a {
+    position:relative;
+    top:20px;
+}
+/* MAIN */
+/* sobre filiaias */
+.filiais-sobre {
+    padding: 40px;
+    background-color: #C6C6C6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.filiais-sobre p {
+    padding: 15px 0px 0px 0px ;
+}
+/* center-shopping */
+.center-shopping img {
+    border: 10px solid white;
+    width: 250px;
+    border-radius: 400px;
+}
+.center-shopping p {
+    position: relative;
+    left: 10px;
+    font-size: 30px;
+    color: rgba(49, 49, 49, 0.698);
+}
+
+/* for-men */
+.for-men img {
+    border: 10px solid white;
+    width: 250px;
+    border-radius: 400px;
+}
+.for-men p {
+    position: relative;
+    left: 60px;
+    font-size: 30px;
+    color: rgba(49, 49, 49, 0.698);
+}
+/* morada da colina */
+.morada-colina img {
+    border: 10px solid white;
+    width: 250px;
+    border-radius: 400px;
+}
+.morada-colina p {
+    font-size: 30px;
+    color: rgba(49, 49, 49, 0.698);
+}
+
+/* Uberlandia-shopping */
+.Uberlandia-shopping img {
+    border: 10px solid white;
+    width: 250px;
+    border-radius: 400px;
+}
+.Uberlandia-shopping p {
+    position: relative;
+    right: 12px;
+    font-size: 30px;
+    color: rgba(49, 49, 49, 0.698);
+}
+
+/* getulio-vargas */
+.getulio-vargas img {
+    border: 10px solid white;
+    width: 250px;
+    border-radius: 400px;
+}
+.getulio-vargas  p {
+    position: relative;
+    left: 30px;
+    font-size: 30px;
+    color: rgba(49, 49, 49, 0.698);
+}
+
+/* nicomendes */
+.nicomendes img {
+    border: 10px solid white;
+    width: 250px;
+    border-radius: 400px;
+}
+.nicomendes p {
+    position: relative;
+    left: 60px;
+    font-size: 30px;
+    color: rgba(49, 49, 49, 0.698);
+}
+
+
+.sobre-darc {
+    background-color: black;
+}
+.sobre-darc h1 {
+    padding: 40px 0px 0px 0px;
+    color: white;  
+    font-size: 55px; 
+    text-align: center;
+}
+.sobre-darc p {
+    padding: 0px 0px 50px 0px;
+    color: rgba(255, 255, 255, 0.609);
+    text-align: center;
+    font-size: 30px;
+}
+.historia h2{
+    font-family: sans-serif;
+    padding: 20px 0px 40px 0px;
+    font-size:50px;
+    text-align: center;
+}
+.historia p{
+    padding: 0px 0px 40px 0px;
+    font-family: sans-serif;
+    color: rgba(131, 126, 126, 0.698);
+    font-size:22px;
+    text-align: center;
+}
+
+
+
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(42, 42, 42);
+    height: 400px;
+
+}
+
+footer h2 {
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+    font-weight: lighter;
+}
+.barrinha-vertical {
+    width: 2px;
+    height: 90%;
+    position: relative;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.localizações {
+    display: flex;
+    flex-direction:column;
+    
+    
+
+}
+.localizações div p{
+    padding: 15px 0px 0px 0px ;
+    color: white;
+   
+}
+.localizações  p{
+   
+    font-size: 19px;
+}
+.localizações div {
+    padding: 10px 0px 10px 0px ;
+    
+}
+.icone-local {
+    display: flex;
+    flex-direction: row;
+}
+
+.outro-footer {
+    display: flex;
+    flex-direction: row;
+
+    height: 150px;
+    background-color: black;
+}
+.outro-footer p {
+    color: rgba(128, 128, 128, 0.753);
+    position: relative;
+    left: 700px;
+    top: 50px;
+    font-size: 20px;
+}
+#marca-darc img {
+    position:relative;
+    top: 20px;
+    left: 50px;
+    width: 150px;
+}
+#face {
+    position:relative;
+    top: 15px;
+    left: 100px;
+}
+#insta {
+    position:relative;
+    top: 15px;
+    left: 120px;
+}

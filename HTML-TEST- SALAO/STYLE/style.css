@@ -1,0 +1,136 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Licorice&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Libre+Baskerville&family=Licorice&display=swap');
+
+        :root {
+            
+            --color1:#FFD4E5;
+            --color2:#EDADC7;
+            --color3:#A1657D;
+            --color4:#55A159;
+            --color5:#ADEDB1;
+           /*Cores alternativas*/
+           --color6:#493657;
+           --color7:#91C4F2;
+           --color8:#FF7733;
+           --color9:#E15634;       
+        }
+
+
+        *{
+            margin: 0px;
+        }
+        header{
+            background-color: var(--color1);
+            padding: 25px;
+            min-height: 150px;
+            text-align: center;
+        }
+        header > h1 {
+            background-image: linear-gradient(to right,#A1657D , #a1657d0c);
+            width: 400px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 8px;
+            border-radius: 10px;
+        }
+        header > div {
+        color:black;
+            font-size: 20px;    
+            font-family: 'Licorice', cursive;
+            
+        }
+        nav {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            margin:auto;
+            box-sizing: border-box;
+            height: 50px;
+            
+            
+        }
+        nav  a {
+            text-decoration: none;
+            color:var(--color3) ;
+            padding: 10px;
+            margin-left: 15%;
+            margin-top:10px;
+            height:30px
+        }
+       
+            nav  a:hover {
+            text-align: center;
+            color: white;
+            background-color:#E15634;
+           
+        }
+        main {
+            padding-top: 5px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            background-color: var(--color5);
+        }
+        article {
+            padding: 8px;
+            background-color: white;
+            max-width: 800px;
+            
+            margin: auto;
+        }
+        
+        article > h2 {
+            font-family: 'Cinzel', serif;
+
+        }
+        article > p {
+            text-align: justify;
+        }
+        #coloracao {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+        }
+        .container > img {
+            max-width: 600px;
+            min-width: 300px;
+            max-height: 450px;
+        }
+        .container > p {
+            padding: 10px;
+            text-align: left;
+        }
+        #burguer {
+            float: right;
+            padding: 0px 5px ;
+            
+            
+        }
+       
+        
+        @media (min-width:940px) {
+            #burguer {display:none;}
+        }
+        @media (max-width:950px) {
+            #promo {display:none;}
+        }
+        @media (max-width:950px) {
+            #burguer {display:inline-block;}
+        }
+        @media (max-width:600px) {
+            .menu {display: none;}
+        }
+        @media (max-width:680px) {
+            .container {display:inline-block}
+        }
+        @media (max-width:680px) and (min-width:530px) {
+            #imagemcolor {margin-left: 20%;}
+        }
+        @media (max-width:680px) {
+            #imagemcolor {margin-left: 15%;}
+        }
+
+        
+
+   
