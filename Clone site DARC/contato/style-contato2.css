@@ -108,7 +108,7 @@ select option {
  }
  aside h5 {
     font-size: 25px;
-    color: gray;
+    color: rgba(128, 128, 128, 0.671);
     font-weight: lighter;
     margin: 20px 0px 20px 0px ;
  }
